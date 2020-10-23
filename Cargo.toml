@@ -3,9 +3,14 @@ name = "serde_zzz"
 version = "0.0.1"
 authors = ["MouseProducedGames <largemouse@gmail.com>"]
 edition = "2018"
+license-file = "LICENSE"
+description = "Implements serde for the zzz data format."
+homepage = "https://github.com/gruebite/zzz"
+repository = "https://github.com/MouseProducedGames/serde_zzz"
+readme = "readme.md"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-ruzzzt = { path = "../ruzzzt" }
+ruzzzt = "0.0.2"
 serde = { version = "1.0.117", features = ["derive"] }
